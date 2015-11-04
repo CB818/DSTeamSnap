@@ -1,0 +1,575 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Babel</title><link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"><link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,700|Inconsolata|Raleway:200"><style>/* Highlight.js Theme Tomorrow */
+.hljs-comment,.hljs-title{color:#8e908c}.hljs-variable,.hljs-attribute,.hljs-tag,.hljs-regexp,.ruby .hljs-constant,.xml .hljs-tag .hljs-title,.xml .hljs-pi,.xml .hljs-doctype,.html .hljs-doctype,.css .hljs-id,.css .hljs-class,.css .hljs-pseudo{color:#c82829}.hljs-number,.hljs-preprocessor,.hljs-pragma,.hljs-built_in,.hljs-literal,.hljs-params,.hljs-constant{color:#f5871f}.ruby .hljs-class .hljs-title,.css .hljs-rules .hljs-attribute{color:#eab700}.hljs-string,.hljs-value,.hljs-inheritance,.hljs-header,.ruby .hljs-symbol,.xml .hljs-cdata{color:#718c00}.css .hljs-hexcolor{color:#3e999f}.hljs-function,.python .hljs-decorator,.python .hljs-title,.ruby .hljs-function .hljs-title,.ruby .hljs-title .hljs-keyword,.perl .hljs-sub,.javascript .hljs-title,.coffeescript .hljs-title{color:#4271ae}.hljs-keyword,.javascript .hljs-function{color:#8959a8}.hljs{display:block;background:white;color:#4d4d4c;padding:.5em}.coffeescript .javascript,.javascript .xml,.tex .hljs-formula,.xml .javascript,.xml .vbscript,.xml .css,.xml .hljs-cdata{opacity:.5}</style><style>body,
+h4,
+h5 {
+  font-family: 'Roboto' sans-serif !important;
+}
+h1,
+h2,
+h3,
+.aglio {
+  font-family: 'Raleway' sans-serif !important;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  display: none;
+}
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a,
+h5:hover a {
+  display: inline;
+}
+code {
+  color: #444;
+  background-color: #ddd;
+  font-family: 'Inconsolata' monospace !important;
+}
+a[data-target] {
+  cursor: pointer;
+}
+h4 {
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.back-to-top {
+  position: fixed;
+  z-index: 1;
+  bottom: 0px;
+  right: 24px;
+  padding: 4px 8px;
+  background-color: #eee;
+  text-decoration: none !important;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-left: 1px solid rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(0,0,0,0.1);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.panel {
+  overflow: hidden;
+}
+.panel-heading code {
+  margin-left: 3px;
+  color: #c7254e;
+  background-color: rgba(255,255,255,0.7);
+  white-space: pre-wrap;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+.panel-heading h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+a.list-group-item:hover {
+  background-color: #f8f8f8;
+  border-left: 2px solid #555;
+  padding-left: 15px;
+}
+.indent {
+  display: block;
+  text-indent: 16px;
+}
+.list-group-item {
+  padding-left: 16px;
+}
+.list-group-item .toggle .open {
+  display: block;
+}
+.list-group-item .toggle .closed {
+  display: none;
+}
+.list-group-item.collapsed .toggle .open {
+  display: none;
+}
+.list-group-item.collapsed .toggle .closed {
+  display: block;
+}
+a.list-group-item {
+  font-size: 13px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+a.list-group-item.heading {
+  font-size: 15px;
+  background-color: #f5f5f5;
+}
+a.list-group-item.heading:hover {
+  background-color: #f8f8f8;
+}
+.list-group-item.collapse {
+  display: none;
+}
+.list-group-item.collapse.in {
+  display: block;
+}
+.list-group-item a span.closed {
+  display: none;
+}
+.list-group-item a span.open {
+  display: block;
+}
+.list-group-item a.collapsed span.closed {
+  display: block;
+}
+.list-group-item a.collapsed span.open {
+  display: none;
+}
+#nav {
+  width: inherit;
+  margin-top: 38px;
+  max-width: 255px;
+  top: 0;
+  bottom: 0;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  overflow-y: auto;
+}
+@media (max-width: 1199px) {
+  #nav {
+    max-width: 212px;
+  }
+}
+</style></head>
+<body><a href="#top" class="text-muted back-to-top"><i class="fa fa-toggle-up"></i>&nbsp;Back to top</a><div class="container"><div class="row"><div class="col-md-3"><nav id="nav" class="hidden-sm hidden-xs affix nav">
+    <div class="list-group"><a data-toggle="" data-target="#-menu" href="#" class="list-group-item heading collapsed">Resource Group</a>
+        <div id="-menu">
+            <a href="#la_seasons" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-info"><i class="fa fa-arrow-down"></i></span>GET /league_athletics/seasons</a>
+            <a href="#la_pull" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-info"><i class="fa fa-arrow-down"></i></span>GET /league_athletics/pull</a>
+            <a href="#la_push" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-success"><i class="fa fa-plus"></i></span>POST /league_athletics/push</a>
+            <a href="#ts_sports" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-info"><i class="fa fa-arrow-down"></i></span>GET /teamsnap/sports</a>
+            <a href="#ts_time_zones" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-info"><i class="fa fa-arrow-down"></i></span>GET /teamsnap/time_zones</a>
+            <a href="#ts_push" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-success"><i class="fa fa-plus"></i></span>POST /teamsnap/push</a>
+            <a href="#ts_pull" style="border-top-left-radius: 0; border-top-right-radius: 0" class="list-group-item"><span class="badge alert-success"><i class="fa fa-plus"></i></span>POST /teamsnap/pull</a>
+        </div></div><p style="text-align: center; word-wrap: break-word;"><a href="http://ds-babel.herokuapp.com">http://ds-babel.herokuapp.com</a></p></nav></div><div class="col-md-8"><div><header><div class="page-header"><h1 id="top">Babel</h1></div></header><div class="description"><p>A translation layer for Diamond Scheduler and various third-party APIs.</p>
+</div></div><div>
+    <div class="panel panel-default">
+        <div class="panel-heading"><h3 id="">Resource Group&nbsp;<a href="#"><i class="fa fa-link"></i></a></h3></div>
+        <div class="panel-body">
+            <h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4>
+            <section id="la_seasons" class="panel panel-info">
+                <div class="panel-heading"><div style="float:left"><a href="#--get" class="btn btn-xs btn-primary">GET</a></div><div style="overflow:hidden"><code>/league_athletics/seasons</code></div></div><div class="panel-body"><p>Pull League Athletics season data.</p>
+</div><ul class="list-group"><li class="list-group-item bg-default"><strong>Parameters</strong></li><li class="list-group-item"><dl class="dl-horizontal"><dt>email</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics account email</p>
+</dd><dt>password</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics account password</p>
+</dd><dt>org</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics organization</p>
+</dd></dl></li></ul><ul class="list-group"><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#6bff513695348f73d8c7eba1845d1cbe" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="6bff513695348f73d8c7eba1845d1cbe" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>[
+  {
+    "<span class="hljs-attribute">id</span>": <span class="hljs-value"><span class="hljs-number">9292</span></span>,
+    "<span class="hljs-attribute">name</span>": <span class="hljs-value"><span class="hljs-string">"2013 Summer League"</span></span>,
+    "<span class="hljs-attribute">start</span>": <span class="hljs-value"><span class="hljs-string">"2013-01-03T07:00:00.000Z"</span></span>,
+    "<span class="hljs-attribute">finish</span>": <span class="hljs-value"><span class="hljs-string">"2014-01-01T07:00:00.000Z"</span></span>,
+    "<span class="hljs-attribute">team_count</span>": <span class="hljs-value"><span class="hljs-number">15</span>
+  </span>}
+]
+
+</code></pre></li></ul></section>
+            <h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4>
+            <section id="la_pull" class="panel panel-info"><div class="panel-heading"><div style="float:left"><a href="#--get" class="btn btn-xs btn-primary">GET</a></div><div style="overflow:hidden"><code>/league_athletics/pull</code></div></div><div class="panel-body"><p>Pull League Athletics data to Diamond Scheduler JSON format. Supports
+division, venues, and teams.</p>
+</div><ul class="list-group"><li class="list-group-item bg-default"><strong>Parameters</strong></li><li class="list-group-item"><dl class="dl-horizontal"><dt>email</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics account email</p>
+</dd><dt>password</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics account password</p>
+</dd><dt>org</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics organization</p>
+</dd><dt>season_id</dt><dd><code>integer</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>League Athletics season id</p>
+</dd></dl></li></ul><ul class="list-group"><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#4b8790d23568e33d050ffcedc7097e9d" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="4b8790d23568e33d050ffcedc7097e9d" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+{
+  <span class="hljs-string">"version_number"</span>: <span class="hljs-string">"7.0.1"</span>,
+  <span class="hljs-string">"build_number"</span>: <span class="hljs-string">"0.0.732"</span>,
+  <span class="hljs-string">"league_external_id"</span>: <span class="hljs-string">"-1"</span>,
+  <span class="hljs-string">"created_at"</span>: <span class="hljs-string">"Sat May 31 11:00:22 GMT-0700 2014"</span>,
+  <span class="hljs-string">"created_at_timestamp"</span>: <span class="hljs-string">"1401559221879"</span>,
+  <span class="hljs-string">"league"</span>: {
+    <span class="hljs-string">"divisions"</span>: [..],
+    <span class="hljs-string">"venues"</span>: [..],
+    <span class="hljs-string">"persons"</span>: [..],
+    <span class="hljs-string">"events"</span>: [..]
+  }
+}
+
+</code></pre></li><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>400</code></strong><a data-toggle="collapse" data-target="#1ae0eb6d151edd75573d36faae8a27e2" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="1ae0eb6d151edd75573d36faae8a27e2" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>{
+  <span class="hljs-string">"error"</span>: <span class="hljs-string">"Parameter <span class="hljs-escape">`s</span>eason_id<span class="hljs-escape">` </span>is required"</span>
+}
+
+</code></pre></li><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>400</code></strong><a data-toggle="collapse" data-target="#6b815a1ba066b83df7046d77c558a615" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="6b815a1ba066b83df7046d77c558a615" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>{
+  "<span class="hljs-attribute">error</span>": <span class="hljs-value"><span class="hljs-string">"League Athletics account has 0 seasons"</span>
+</span>}
+
+</code></pre></li><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>400</code></strong><a data-toggle="collapse" data-target="#5e97561636d73fe56f0814161a506b97" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="5e97561636d73fe56f0814161a506b97" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>{
+  <span class="hljs-string">"error"</span>: <span class="hljs-string">"Season with id <span class="hljs-escape">`1</span>23<span class="hljs-escape">` </span>not found"</span>
+}
+
+</code></pre></li></ul></section>
+            <h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4>
+            <section id="la_push" class="panel panel-success">
+                <div class="panel-heading"><div style="float:left"><a href="#--post" class="btn btn-xs btn-success">POST</a></div><div style="overflow:hidden"><code>/league_athletics/push</code></div></div>
+                <div class="panel-body">
+                    <p>Push Diamond Scheduler data to LeagueAthletics.</p>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Request&nbsp;&nbsp;<code>Diamond Scheduler JSON Export Format</code></strong><a data-toggle="collapse" data-target="#39e77e321b5b45c9b04e35bae0cc56ab" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li>
+                    <li id="39e77e321b5b45c9b04e35bae0cc56ab" class="list-group-item panel-collapse collapse">
+                        <h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+
+{
+    <span class="hljs-string">"email"</span>: <span class="hljs-string">"sample@example.com"</span>,
+    <span class="hljs-string">"password"</span>: <span class="hljs-string">"password"</span>,
+    <span class="hljs-string">"league"</span>: {
+        <span class="hljs-string">"version_number"</span>: <span class="hljs-string">"7.0.1"</span>,
+        <span class="hljs-string">"build_number"</span>: <span class="hljs-string">"0.0.732"</span>,
+        <span class="hljs-string">"league_external_id"</span>: <span class="hljs-string">"-1"</span>,
+        <span class="hljs-string">"created_at"</span>: <span class="hljs-string">"Sat May 31 11:00:21 GMT-0700 2014"</span>,
+        <span class="hljs-string">"created_at_timestamp"</span>: <span class="hljs-string">"1401559221879"</span>,
+        <span class="hljs-string">"events"</span>: [
+            {
+                <span class="hljs-string">"action"</span>: "delete",
+                <span class="hljs-string">"ID"</span>: "5271781",
+                <span class="hljs-string">"org"</span>: "cactusware"
+            },
+            {
+                <span class="hljs-string">"ID"</span>: "5271782",
+                <span class="hljs-string">"StartDate"</span>: "2015-04-22",
+                <span class="hljs-string">"opponentid"</span>: "478521",
+                <span class="hljs-string">"Type"</span>: "Game",
+                <span class="hljs-string">"StartTime"</span>: "2015-04-22 10:00:00",
+                <span class="hljs-string">"Edited"</span>: "",
+                <span class="hljs-string">"Facility"</span>: {
+                    <span class="hljs-string">"ID"</span>: "78232",
+                    <span class="hljs-string">"Name"</span>: "Freedom Park"
+                },
+                <span class="hljs-string">"Note"</span>: "",
+                <span class="hljs-string">"OtherOpponent"</span>: "",
+                <span class="hljs-string">"org"</span>: "cactusware",
+                <span class="hljs-string">"Tournament"</span>: "Game",
+                <span class="hljs-string">"sessionID"</span>: "4BD0583B-0FC2-EEB0-45FA-6108ECC23854",
+                <span class="hljs-string">"Start"</span>: "10:00 AM",
+                <span class="hljs-string">"Away"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478521",
+                    <span class="hljs-string">"Name"</span>: "Giants"
+                },
+                <span class="hljs-string">"Finish"</span>: "11:00 AM",
+                <span class="hljs-string">"Location"</span>: "78232",
+                <span class="hljs-string">"Home"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478522",
+                    <span class="hljs-string">"Name"</span>: "Padres"
+                },
+                <span class="hljs-string">"teamid"</span>: "478522"
+            },
+            {
+                <span class="hljs-string">"StartDate"</span>: "2015-05-02",
+                <span class="hljs-string">"opponentid"</span>: "478525",
+                <span class="hljs-string">"Type"</span>: "Game",
+                <span class="hljs-string">"StartTime"</span>: "2015-05-02 10:00:00",
+                <span class="hljs-string">"Edited"</span>: "",
+                <span class="hljs-string">"Facility"</span>: {
+                    <span class="hljs-string">"ID"</span>: "78232",
+                    <span class="hljs-string">"Name"</span>: "Freedom Park"
+                },
+                <span class="hljs-string">"Note"</span>: "",
+                <span class="hljs-string">"OtherOpponent"</span>: "",
+                <span class="hljs-string">"org"</span>: "cactusware",
+                <span class="hljs-string">"Tournament"</span>: "Game",
+                <span class="hljs-string">"sessionID"</span>: "4BD0583B-0FC2-EEB0-45FA-6108ECC23854",
+                <span class="hljs-string">"Start"</span>: "10:00 AM",
+                <span class="hljs-string">"Away"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478525",
+                    <span class="hljs-string">"Name"</span>: "Indians"
+                },
+                <span class="hljs-string">"Finish"</span>: "11:00 AM",
+                <span class="hljs-string">"Location"</span>: "78232",
+                <span class="hljs-string">"Home"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478524",
+                    <span class="hljs-string">"Name"</span>: "Braves"
+                },
+                <span class="hljs-string">"teamid"</span>: "478524"
+            },
+            {
+                <span class="hljs-string">"StartDate"</span>: "2015-05-02",
+                <span class="hljs-string">"opponentid"</span>: "478525",
+                <span class="hljs-string">"Type"</span>: "Game",
+                <span class="hljs-string">"StartTime"</span>: "2015-05-02 10:00:00",
+                <span class="hljs-string">"Edited"</span>: "",
+                <span class="hljs-string">"Facility"</span>: {
+                    <span class="hljs-string">"ID"</span>: "78232",
+                    <span class="hljs-string">"Name"</span>: "Freedom Park"
+                },
+                <span class="hljs-string">"Note"</span>: "",
+                <span class="hljs-string">"OtherOpponent"</span>: "",
+                <span class="hljs-string">"org"</span>: "cactusware",
+                <span class="hljs-string">"Tournament"</span>: "Game",
+                <span class="hljs-string">"sessionID"</span>: "4BD0583B-0FC2-EEB0-45FA-6108ECC23854",
+                <span class="hljs-string">"Start"</span>: "10:00 AM",
+                <span class="hljs-string">"Away"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478525",
+                    <span class="hljs-string">"Name"</span>: "Indians"
+                },
+                <span class="hljs-string">"Finish"</span>: "11:00 AM",
+                <span class="hljs-string">"Location"</span>: "78232",
+                <span class="hljs-string">"Home"</span>: {
+                    <span class="hljs-string">"ID"</span>: "478524",
+                    <span class="hljs-string">"Name"</span>: "Braves"
+                },
+                <span class="hljs-string">"teamid"</span>: "478524"
+            }
+        ]
+    }
+}
+                    </code></pre>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#a8d791d9b29b5d11c123121f545ffd502" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a>
+                    </li>
+                    <li id="a8d791d9b29b5d11c123121f545ffd502" class="list-group-item panel-collapse collapse">
+                        <h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+[
+    {
+        <span class="hljs-string">"error"</span>: <span class="hljs-string">""</span>,
+        <span class="hljs-string">"result"</span>:
+        {
+            <span class="hljs-string">"status"</span>: <span class="hljs-string">"Success"</span>,
+            <span class="hljs-string">"action"</span>: <span class="hljs-string">"DELETE"</span>,
+            <span class="hljs-string">"changes"</span>: <span class="hljs-string">""</span>,
+            <span class="hljs-string">"game"</span>: {
+                <span class="hljs-string">"ID"</span>: "5271781",
+            }
+        }
+    },
+    {
+        <span class="hljs-string">"error"</span>: <span class="hljs-string">""</span>,
+        <span class="hljs-string">"result"</span>:
+        {
+            <span class="hljs-string">"status"</span>: <span class="hljs-string">"Success"</span>,
+            <span class="hljs-string">"action"</span>: <span class="hljs-string">"INSERT"</span>,
+            <span class="hljs-string">"changes"</span>: <span class="hljs-string">""</span>,
+            <span class="hljs-string">"game"</span>: {
+                <span class="hljs-string">"ID"</span>: "5304029",
+                <span class="hljs-string">"ClubID"</span>: null,
+                <span class="hljs-string">"AssocID"</span>: "15763",
+                <span class="hljs-string">"PLAY_DATE"</span>: "2015-04-30T00:00:00.000Z",
+                <span class="hljs-string">"DateTBD"</span>: "false",
+                <span class="hljs-string">"START"</span>: "2015-04-30T10:15:00.000Z",
+                <span class="hljs-string">"FINISH"</span>: "2015-04-30T11:15:00.000Z",
+                <span class="hljs-string">"TEAM_ID"</span>: "478515",
+                <span class="hljs-string">"LOC_ID"</span>: "78233",
+                <span class="hljs-string">"TOURNAMENT"</span>: "Game",
+                <span class="hljs-string">"OPPONENT"</span>: "Central 1",
+                <span class="hljs-string">"OPPONENT_ID"</span>: "478516",
+                <span class="hljs-string">"WLT"</span>: null,
+                <span class="hljs-string">"GA"</span>: null,
+                <span class="hljs-string">"TA"</span>: "0",
+                <span class="hljs-string">"GF"</span>: null,
+                <span class="hljs-string">"TF"</span>: "0",
+                <span class="hljs-string">"Cancelled"</span>: "false",
+                <span class="hljs-string">"Confirmed"</span>: "false",
+                <span class="hljs-string">"EDITED"</span>: "2015-04-10T00:00:00.000Z",
+                <span class="hljs-string">"EDITED_BY"</span>: "M A",
+                <span class="hljs-string">"SENT"</span>: null,
+                <span class="hljs-string">"SENT_STATE"</span>: null,
+                <span class="hljs-string">"Reminded"</span>: "false",
+                <span class="hljs-string">"Texted"</span>: "false",
+                <span class="hljs-string">"Sequence"</span>: "0",
+                <span class="hljs-string">"SqlAction"</span>: "INSERT",
+                <span class="hljs-string">"old_AssocID"</span>: null,
+                <span class="hljs-string">"old_Play_Date"</span>: null,
+                <span class="hljs-string">"old_Start"</span>: null,
+                <span class="hljs-string">"old_Finish"</span>: null,
+                <span class="hljs-string">"old_Team_ID"</span>: null,
+                <span class="hljs-string">"old_Loc_ID"</span>: null,
+                <span class="hljs-string">"old_Tournament"</span>: null,
+                <span class="hljs-string">"old_Reminded"</span>: null,
+                <span class="hljs-string">"old_Edited"</span>: null,
+                <span class="hljs-string">"old_Edited_By"</span>: null,
+                <span class="hljs-string">"old_Opponent_ID"</span>: null,
+                <span class="hljs-string">"old_Opponent"</span>: null,
+                <span class="hljs-string">"GUID"</span>: "7D72030D-F9B4-0CD0-5590-6108EC912A6D",
+            }
+        }
+    },
+    {
+        <span class="hljs-string">"error"</span>: <span class="hljs-string">""</span>,
+        <span class="hljs-string">"result"</span>:
+        {
+            <span class="hljs-string">"status"</span>: <span class="hljs-string">"Success"</span>,
+            <span class="hljs-string">"action"</span>: <span class="hljs-string">"UPDATE"</span>,
+            <span class="hljs-string">"changes"</span>: <span class="hljs-string">"Time changed from '04-30-2015 10:15 AM - 11:15 AM' to '05-30-2015 10:15 AM - 11:15 AM'\n"</span>,
+            <span class="hljs-string">"game"</span>: {
+                <span class="hljs-string">"ID"</span>: "5304029",
+                <span class="hljs-string">"ClubID"</span>: null,
+                <span class="hljs-string">"AssocID"</span>: "15763",
+                <span class="hljs-string">"PLAY_DATE"</span>: "2015-04-30T00:00:00.000Z",
+                <span class="hljs-string">"DateTBD"</span>: "false",
+                <span class="hljs-string">"START"</span>: "2015-04-30T10:15:00.000Z",
+                <span class="hljs-string">"FINISH"</span>: "2015-04-30T11:15:00.000Z",
+                <span class="hljs-string">"TEAM_ID"</span>: "478515",
+                <span class="hljs-string">"LOC_ID"</span>: "78233",
+                <span class="hljs-string">"TOURNAMENT"</span>: "Game",
+                <span class="hljs-string">"OPPONENT"</span>: "Central 1",
+                <span class="hljs-string">"OPPONENT_ID"</span>: "478516",
+                <span class="hljs-string">"WLT"</span>: null,
+                <span class="hljs-string">"GA"</span>: null,
+                <span class="hljs-string">"TA"</span>: "0",
+                <span class="hljs-string">"GF"</span>: null,
+                <span class="hljs-string">"TF"</span>: "0",
+                <span class="hljs-string">"Cancelled"</span>: "false",
+                <span class="hljs-string">"Confirmed"</span>: "false",
+                <span class="hljs-string">"EDITED"</span>: "2015-04-10T00:00:00.000Z",
+                <span class="hljs-string">"EDITED_BY"</span>: "M A",
+                <span class="hljs-string">"SENT"</span>: null,
+                <span class="hljs-string">"SENT_STATE"</span>: null,
+                <span class="hljs-string">"Reminded"</span>: "false",
+                <span class="hljs-string">"Texted"</span>: "false",
+                <span class="hljs-string">"Sequence"</span>: "0",
+                <span class="hljs-string">"SqlAction"</span>: "INSERT",
+                <span class="hljs-string">"old_AssocID"</span>: null,
+                <span class="hljs-string">"old_Play_Date"</span>: null,
+                <span class="hljs-string">"old_Start"</span>: null,
+                <span class="hljs-string">"old_Finish"</span>: null,
+                <span class="hljs-string">"old_Team_ID"</span>: null,
+                <span class="hljs-string">"old_Loc_ID"</span>: null,
+                <span class="hljs-string">"old_Tournament"</span>: null,
+                <span class="hljs-string">"old_Reminded"</span>: null,
+                <span class="hljs-string">"old_Edited"</span>: null,
+                <span class="hljs-string">"old_Edited_By"</span>: null,
+                <span class="hljs-string">"old_Opponent_ID"</span>: null,
+                <span class="hljs-string">"old_Opponent"</span>: null,
+                <span class="hljs-string">"GUID"</span>: "7D72030D-F9B4-0CD0-5590-6108EC912A6D",
+             <span class="hljs-string">"gameWas"</span>: {
+                <span class="hljs-string">"AssocID"</span>: "15763",
+                <span class="hljs-string">"Play_Date"</span>: "2015-04-30T00:00:00.000Z",
+                <span class="hljs-string">"DateTBD"</span>: "false",
+                <span class="hljs-string">"Start"</span>: "2015-04-30T10:15:00.000Z",
+                <span class="hljs-string">"Finish"</span>: "2015-04-30T11:15:00.000Z",
+                <span class="hljs-string">"Team_ID"</span>: "478515",
+                <span class="hljs-string">"Loc_ID"</span>: "78233",
+                <span class="hljs-string">"Tournament"</span>: "Game",
+                <span class="hljs-string">"Reminded"</span>: "false",
+                <span class="hljs-string">"Edited"</span>: "2015-04-10T00:00:00.000Z",
+                <span class="hljs-string">"Edited_By"</span>: "M A",
+                <span class="hljs-string">"Opponent"</span>: "Central 1",
+                <span class="hljs-string">"Opponent_ID"</span>: "478516",
+                <span class="hljs-string">"note"</span>: "",
+            }
+        }
+    },
+    {
+        <span class="hljs-string">"error"</span>: <span class="hljs-string">"There is already an event scheduled for Freedom Park on 04-22-2015 between 12-30-1899 10:00 AM And 12-30-1899 11:00 AM.  This faciltiy cannot be booked for this time.  Please choose another time or location."</span>,
+        <span class="hljs-string">"result"</span>:
+        {
+            <span class="hljs-string">"status"</span>: <span class="hljs-string">"Failed"</span>,
+            <span class="hljs-string">"action"</span>: <span class="hljs-string">""</span>,
+            <span class="hljs-string">"changes"</span>: <span class="hljs-string">""</span>,
+            <span class="hljs-string">"game"</span>: null
+            <span class="hljs-string">"gameWas"</span>: null
+        }
+    },
+]
+
+                        </code></pre>
+                    </li>
+                </ul></section>
+
+            <h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4><section id="ts_sports" class="panel panel-info"><div class="panel-heading"><div style="float:left"><a href="#--get" class="btn btn-xs btn-primary">GET</a></div><div style="overflow:hidden"><code>/teamsnap/sports</code></div></div><div class="panel-body"><p>A list of TeamSnap sport categories.</p>
+</div><ul class="list-group"><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#5029f6fa2533ade99bef36244864c81f" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="5029f6fa2533ade99bef36244864c81f" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>{
+  <span class="hljs-string">"sports"</span>: [
+    {
+      <span class="hljs-string">"id"</span>: <span class="hljs-number">59</span>,
+      <span class="hljs-string">"name"</span>: <span class="hljs-string">"Archery"</span>
+    },
+    {
+      <span class="hljs-string">"id"</span>: <span class="hljs-number">26</span>,
+      <span class="hljs-string">"name"</span>: <span class="hljs-string">"Australian Football"</span>
+    },
+    {
+      <span class="hljs-keyword">...</span>
+    },
+  ]
+}
+
+</code></pre></li></ul></section><h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4><section id="ts_time_zones" class="panel panel-info"><div class="panel-heading"><div style="float:left"><a href="#--get" class="btn btn-xs btn-primary">GET</a></div><div style="overflow:hidden"><code>/teamsnap/time_zones</code></div></div><div class="panel-body"><p>A list of TeamSnap supported time zones.</p>
+</div><ul class="list-group"><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#41da7c808fa7cd5b48edaef2c073a37a" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="41da7c808fa7cd5b48edaef2c073a37a" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code>{
+  <span class="hljs-string">"time_zones"</span>: [
+    {
+      name: <span class="hljs-string">"Eastern Time (US &amp; Canada)"</span>,
+      description: <span class="hljs-string">"(GMT-05:00) Eastern Time (US &amp; Canada)"</span>
+    },
+    {
+      <span class="hljs-keyword">...</span>
+    },
+  ]
+}
+
+</code></pre></li></ul></section>
+            <h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4><section id="ts_push" class="panel panel-success"><div class="panel-heading"><div style="float:left"><a href="#--post" class="btn btn-xs btn-success">POST</a></div><div style="overflow:hidden"><code>/teamsnap/push</code></div></div><div class="panel-body"><p>Push Diamond Scheduler data to TeamSnap.</p>
+</div><ul class="list-group"><li class="list-group-item bg-default"><strong>Parameters</strong></li><li class="list-group-item"><dl class="dl-horizontal"><dt>email</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap account email</p>
+</dd><dt>password</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap account password</p>
+</dd><dt>time_zone</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap recognized time zone</p>
+</dd><dt>sport_id</dt><dd><code>integer</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap recognized sport id</p>
+</dd><dt>zip_code</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>Postal code for all teams</p>
+</dd><dt>country</dt><dd><code>string</code>&nbsp;<span>(optional)</span>&nbsp;<p>Country, defaults to ‘United States’</p>
+</dd></dl></li></ul><ul class="list-group"><li class="list-group-item"><strong>Request&nbsp;&nbsp;<code>Diamond Scheduler JSON Export Format</code></strong><a data-toggle="collapse" data-target="#39e77e208b5b45c9b04e35bae0cc56ab" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="39e77e208b5b45c9b04e35bae0cc56ab" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+{
+  <span class="hljs-string">"version_number"</span>: <span class="hljs-string">"7.0.1"</span>,
+  <span class="hljs-string">"build_number"</span>: <span class="hljs-string">"0.0.732"</span>,
+  <span class="hljs-string">"league_external_id"</span>: <span class="hljs-string">"-1"</span>,
+  <span class="hljs-string">"created_at"</span>: <span class="hljs-string">"Sat May 31 11:00:21 GMT-0700 2014"</span>,
+  <span class="hljs-string">"created_at_timestamp"</span>: <span class="hljs-string">"1401559221879"</span>,
+  <span class="hljs-string">"league"</span>: {
+    <span class="hljs-string">"divisions"</span>: [..],
+    <span class="hljs-string">"venues"</span>: [..],
+    <span class="hljs-string">"persons"</span>: [..],
+    <span class="hljs-string">"events"</span>: [..]
+  }
+}
+</code></pre></li><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#a8d791d9b29b5d11c40661f545ffd502" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="a8d791d9b29b5d11c40661f545ffd502" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+{
+  <span class="hljs-string">"version_number"</span>: <span class="hljs-string">"7.0.1"</span>,
+  <span class="hljs-string">"build_number"</span>: <span class="hljs-string">"0.0.732"</span>,
+  <span class="hljs-string">"league_external_id"</span>: <span class="hljs-string">"-1"</span>,
+  <span class="hljs-string">"created_at"</span>: <span class="hljs-string">"Sat May 31 11:00:21 GMT-0700 2014"</span>,
+  <span class="hljs-string">"created_at_timestamp"</span>: <span class="hljs-string">"1401559221879"</span>,
+  <span class="hljs-string">"league"</span>: {
+    <span class="hljs-string">"divisions"</span>: [..],
+    <span class="hljs-string">"venues"</span>: [..],
+    <span class="hljs-string">"persons"</span>: [..],
+    <span class="hljs-string">"events"</span>: [..]
+  }
+}
+
+</code></pre></li></ul></section><h4 id="-">Resources&nbsp;<a href="#-"><i class="fa fa-link"></i></a></h4><section id="ts_pull" class="panel panel-success"><div class="panel-heading"><div style="float:left"><a href="#--post" class="btn btn-xs btn-success">POST</a></div><div style="overflow:hidden"><code>/teamsnap/pull</code></div></div><div class="panel-body"><p>Pull TeamSnap data to Diamond Scheduler JSON format. Only supports
+division, venues, and teams.</p>
+</div><ul class="list-group"><li class="list-group-item bg-default"><strong>Parameters</strong></li><li class="list-group-item"><dl class="dl-horizontal"><dt>email</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap account email</p>
+</dd><dt>password</dt><dd><code>string</code>&nbsp;<span class="required">(required)</span>&nbsp;<p>TeamSnap account password</p>
+</dd></dl></li></ul><ul class="list-group"><li class="list-group-item"><strong>Response&nbsp;&nbsp;<code>200</code></strong><a data-toggle="collapse" data-target="#4b8790d23568e33d050ffcedc7097e9d" class="pull-right collapsed"><span class="closed">Show</span><span class="open">Hide</span></a></li><li id="4b8790d23568e33d050ffcedc7097e9d" class="list-group-item panel-collapse collapse"><h5>Headers</h5><pre><code><span class="hljs-attribute">Content-Type</span>: <span class="hljs-string">application/json</span><br></code></pre><h5>Body</h5><pre><code><span class="hljs-comment">// Diamond Scheduler JSON Export Format</span>
+{
+  <span class="hljs-string">"version_number"</span>: <span class="hljs-string">"7.0.1"</span>,
+  <span class="hljs-string">"build_number"</span>: <span class="hljs-string">"0.0.732"</span>,
+  <span class="hljs-string">"league_external_id"</span>: <span class="hljs-string">"-1"</span>,
+  <span class="hljs-string">"created_at"</span>: <span class="hljs-string">"Sat May 31 11:00:22 GMT-0700 2014"</span>,
+  <span class="hljs-string">"created_at_timestamp"</span>: <span class="hljs-string">"1401559221879"</span>,
+  <span class="hljs-string">"league"</span>: {
+    <span class="hljs-string">"divisions"</span>: [..],
+    <span class="hljs-string">"venues"</span>: [..],
+    <span class="hljs-string">"persons"</span>: [..],
+    <span class="hljs-string">"events"</span>: [..]
+  }
+}
+
+</code></pre></li></ul></section></div></div></div></div></div></div><p style="text-align: center;" class="text-muted">Generated by&nbsp;<a href="https://github.com/danielgtaylor/aglio" class="aglio">aglio</a>&nbsp;on 14 Mar 2015</p><div id="localFile" style="display: none; position: absolute; top: 0; left: 0; width: 100%; color: white; background: red; font-size: 150%; text-align: center; padding: 1em;">This page may not display correctly when opened as a local file. Instead, view it from a web server.
+
+</div></body><script src="//code.jquery.com/jquery-1.11.0.min.js"></script><script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script><script>(function() {
+  if (location.protocol === 'file:') {
+    document.getElementById('localFile').style.display = 'block';
+  }
+
+}).call(this);
+</script><script>(function() {
+  $('table').addClass('table');
+
+}).call(this);
+</script></html>

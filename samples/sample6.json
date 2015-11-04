@@ -1,0 +1,511 @@
+{
+  "version_number": "7.0.1",
+  "build_number": "0.0.805",
+  "league_external_id": "-1",
+  "created_at": "Sat Jul 5 14:20:42 GMT-0400 2014",
+  "created_at_timestamp": "1404584442141",
+  "league": {
+    "divisions": [
+      {
+        "metadata": "",
+        "teams": [
+          {
+            "metadata": "",
+            "players": [
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Thirteen",
+                "guid": "E88C8446-BC28-A6E7-2EF3-81EE4D9E4FAA"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Three",
+                "guid": "72EACFD5-9110-785C-D8B8-81ED6B5522A6"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twelve",
+                "guid": "2C506F44-A2C7-3F2B-9A35-81EE352FD3B8"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty",
+                "guid": "5A48478A-54FA-DD05-3F46-81EEF03404CB"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty Five",
+                "guid": "B230D5B1-86A9-511B-3533-81EFD6EA804F"
+              }
+            ],
+            "abbreviation": "B1",
+            "guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+            "custom_code": "Brb 1",
+            "name": "Burbs 1",
+            "coaches": [
+              {
+                "metadata": "",
+                "first_name": "Ralph",
+                "last_name": "Coachman",
+                "guid": "2B20ABBD-72F1-26CC-827F-81E82B5DCE7B"
+              }
+            ]
+          },
+          {
+            "metadata": "",
+            "players": [
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Seven",
+                "guid": "F66DF798-7DE0-8FBB-822D-81EDC3D1240A"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Seventeen",
+                "guid": "D30B41D2-99D0-E9E1-E236-81EEA3724B7B"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Six",
+                "guid": "71A7C2B4-192A-397E-87F4-81EDB1A7DFF8"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Sixteen",
+                "guid": "68F3618A-D5C7-CD8B-0210-81EE8EB63E91"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Ten",
+                "guid": "3A41FFCA-E747-E781-AB36-81EE0200E8C1"
+              }
+            ],
+            "abbreviation": "B2",
+            "guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+            "custom_code": "Brb 2",
+            "name": "Burbs 2",
+            "coaches": [
+              {
+                "metadata": "",
+                "first_name": "Best",
+                "last_name": "Guy",
+                "guid": "BF9EFB10-8D19-6209-4173-81E92D7886DC"
+              }
+            ]
+          },
+          {
+            "metadata": "",
+            "players": [
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Four",
+                "guid": "0CBF3186-C564-9C5C-9193-81ED86EB2D4F"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Fourteen",
+                "guid": "E5C65D17-3E69-2276-5DA8-81EE64E9923C"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Nine",
+                "guid": "F90FE683-C77A-0463-7675-81EDEE8E46BB"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Nineteen",
+                "guid": "4BA0E175-21B1-59A7-F651-81EED3D3E5BD"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "One",
+                "guid": "D7ADC737-54BE-AB54-FF49-81ED196B61D7"
+              }
+            ],
+            "abbreviation": "C1",
+            "guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+            "custom_code": "Cntrl 1",
+            "name": "Central 1",
+            "coaches": [
+              {
+                "metadata": "",
+                "first_name": "Jim",
+                "last_name": "Jam",
+                "guid": "B46F8134-1C88-FAC3-15D9-81E6561A2354"
+              }
+            ]
+          },
+          {
+            "metadata": "",
+            "players": [
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Eight",
+                "guid": "BA977EED-2A66-7D4F-B558-81EDDBAF0A47"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Eighteen",
+                "guid": "FC78CA40-6E9B-0D18-D386-81EEBD2096DE"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Eleven",
+                "guid": "A4644385-0B91-8891-1307-81EE1E75FA84"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Fifteen",
+                "guid": "735B9913-84B6-B8CA-FC27-81EE7A604701"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Five",
+                "guid": "DF350DFF-6B98-199B-4243-81EDA02C3229"
+              }
+            ],
+            "abbreviation": "C2",
+            "guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+            "custom_code": "Cntrl 2",
+            "name": "Central 2",
+            "coaches": [
+              {
+                "metadata": "",
+                "first_name": "Cindy",
+                "last_name": "Manager",
+                "guid": "27C26CFC-D1EF-E854-47B0-81EA24B8EE8C"
+              }
+            ]
+          },
+          {
+            "metadata": "",
+            "players": [
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty Four",
+                "guid": "F2B7596D-0A8B-B7FA-BADC-81EFBE828E52"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty One",
+                "guid": "85968FBA-5EBD-B573-B179-81EF0A1A9CEE"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty Three",
+                "guid": "36D856B7-BA39-34B1-4E32-81EFA2B848DC"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Twenty Two",
+                "guid": "77EEFE36-9F43-D552-AAA8-81EF86B1DEBF"
+              },
+              {
+                "metadata": "",
+                "first_name": "Player",
+                "last_name": "Two",
+                "guid": "D7371DE0-1F75-F38C-B3D7-81ED415AAF66"
+              }
+            ],
+            "abbreviation": "MV",
+            "guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+            "custom_code": "Mavs",
+            "name": "Mavericks",
+            "coaches": [
+              {
+                "metadata": "",
+                "first_name": "Helen",
+                "last_name": "Basil",
+                "guid": "7CE91140-754F-1540-E913-81E74E58C655"
+              }
+            ]
+          }
+        ],
+        "abbreviation": "Soft",
+        "guid": "4481B275-111D-0FC9-DB59-81E5DE3C994C",
+        "custom_code": "Softb",
+        "is_across_division": false,
+        "name": "Softball Seniors",
+        "is_out_of_league": false
+      }
+    ],
+    "venues": [
+      {
+        "address_2": "",
+        "map_url": "https://maps.google.com/maps?q=5000+E+29th+St,+Tucson,+AZ&hl=en&sll=32.15591,-110.883805&sspn=0.392387,0.727158&oq=5000+e+29th&hnear=5000+E+29th+St,+Tucson,+Pima,+Arizona+85711&t=m&z=16",
+        "abbreviation": "01",
+        "custom_code": "",
+        "state": "",
+        "latitude": "32.198282",
+        "name": "Outerbanks Rec Center",
+        "longitude": "-110.886194",
+        "metadata": "",
+        "guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "zip": "",
+        "city": "",
+        "address_1": "5000 E 29th St. Tucson, AZ",
+        "phone": "555-1212"
+      },
+      {
+        "address_2": "",
+        "map_url": "http://maps.google.com/maps?q=+32.212992239190655,+-110.91970032775002+(Randolph+Park)&iwloc=A&hl=en",
+        "abbreviation": "RP",
+        "custom_code": "",
+        "state": "AZ",
+        "latitude": "32.212992239190655",
+        "name": "Randolph Park",
+        "longitude": "-110.91970032775002",
+        "metadata": "",
+        "guid": "AAE6EDE5-F08F-7F0A-A56A-43796634CA0E",
+        "zip": "",
+        "city": "Tucson",
+        "address_1": "131 S. Randolph Way",
+        "phone": ""
+      }
+    ],
+    "persons": [
+      {
+        "metadata": "",
+        "first_name": "Helen",
+        "last_name": "Basil",
+        "guid": "7CE91140-754F-1540-E913-81E74E58C655",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Ralph",
+        "last_name": "Coachman",
+        "guid": "2B20ABBD-72F1-26CC-827F-81E82B5DCE7B",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Eight",
+        "guid": "BA977EED-2A66-7D4F-B558-81EDDBAF0A47",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Eighteen",
+        "guid": "FC78CA40-6E9B-0D18-D386-81EEBD2096DE",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Eleven",
+        "guid": "A4644385-0B91-8891-1307-81EE1E75FA84",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Fifteen",
+        "guid": "735B9913-84B6-B8CA-FC27-81EE7A604701",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Five",
+        "guid": "DF350DFF-6B98-199B-4243-81EDA02C3229",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Four",
+        "guid": "0CBF3186-C564-9C5C-9193-81ED86EB2D4F",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Fourteen",
+        "guid": "E5C65D17-3E69-2276-5DA8-81EE64E9923C",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Best",
+        "last_name": "Guy",
+        "guid": "BF9EFB10-8D19-6209-4173-81E92D7886DC",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Jim",
+        "last_name": "Jam",
+        "guid": "B46F8134-1C88-FAC3-15D9-81E6561A2354",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Cindy",
+        "last_name": "Manager",
+        "guid": "27C26CFC-D1EF-E854-47B0-81EA24B8EE8C",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Nine",
+        "guid": "F90FE683-C77A-0463-7675-81EDEE8E46BB",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Nineteen",
+        "guid": "4BA0E175-21B1-59A7-F651-81EED3D3E5BD",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "One",
+        "guid": "D7ADC737-54BE-AB54-FF49-81ED196B61D7",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Seven",
+        "guid": "F66DF798-7DE0-8FBB-822D-81EDC3D1240A",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Seventeen",
+        "guid": "D30B41D2-99D0-E9E1-E236-81EEA3724B7B",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Six",
+        "guid": "71A7C2B4-192A-397E-87F4-81EDB1A7DFF8",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Sixteen",
+        "guid": "68F3618A-D5C7-CD8B-0210-81EE8EB63E91",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Ten",
+        "guid": "3A41FFCA-E747-E781-AB36-81EE0200E8C1",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Thirteen",
+        "guid": "E88C8446-BC28-A6E7-2EF3-81EE4D9E4FAA",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Three",
+        "guid": "72EACFD5-9110-785C-D8B8-81ED6B5522A6",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twelve",
+        "guid": "2C506F44-A2C7-3F2B-9A35-81EE352FD3B8",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty",
+        "guid": "5A48478A-54FA-DD05-3F46-81EEF03404CB",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty Five",
+        "guid": "B230D5B1-86A9-511B-3533-81EFD6EA804F",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty Four",
+        "guid": "F2B7596D-0A8B-B7FA-BADC-81EFBE828E52",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty One",
+        "guid": "85968FBA-5EBD-B573-B179-81EF0A1A9CEE",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty Three",
+        "guid": "36D856B7-BA39-34B1-4E32-81EFA2B848DC",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Twenty Two",
+        "guid": "77EEFE36-9F43-D552-AAA8-81EF86B1DEBF",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Player",
+        "last_name": "Two",
+        "guid": "D7371DE0-1F75-F38C-B3D7-81ED415AAF66",
+        "gender": ""
+      },
+      {
+        "metadata": "",
+        "first_name": "Vince",
+        "last_name": "Volunteer",
+        "guid": "867C3741-FEAA-400D-FB4C-81EB3AE55C16",
+        "gender": ""
+      }
+    ],
+    "events": []
+  }
+}

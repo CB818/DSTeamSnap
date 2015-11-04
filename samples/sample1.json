@@ -1,0 +1,1696 @@
+{
+  "version_number": "7.0.1",
+  "build_number": "0.0.732",
+  "league_external_id": "-1",
+  "created_at": "Sat May 31 11:00:21 GMT-0700 2014",
+  "created_at_timestamp": "1401559221879",
+  "league": {
+    "divisions": [
+      {
+        "custom_code": "Softb",
+        "teams": [
+          {
+            "custom_code": "Brb 1",
+            "GUID": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+            "players": [
+              {
+                "external_id": -1,
+                "GUID": "E88C8446-BC28-A6E7-2EF3-81EE4D9E4FAA",
+                "first_name": "Player",
+                "last_name": "Thirteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "72EACFD5-9110-785C-D8B8-81ED6B5522A6",
+                "first_name": "Player",
+                "last_name": "Three"
+              },
+              {
+                "external_id": -1,
+                "GUID": "2C506F44-A2C7-3F2B-9A35-81EE352FD3B8",
+                "first_name": "Player",
+                "last_name": "Twelve"
+              },
+              {
+                "external_id": -1,
+                "GUID": "5A48478A-54FA-DD05-3F46-81EEF03404CB",
+                "first_name": "Player",
+                "last_name": "Twenty"
+              },
+              {
+                "external_id": -1,
+                "GUID": "B230D5B1-86A9-511B-3533-81EFD6EA804F",
+                "first_name": "Player",
+                "last_name": "Twenty Five"
+              }
+            ],
+            "name": "Burbs 1",
+            "external_id": -1,
+            "coaches": [
+              {
+                "external_id": -1,
+                "GUID": "2B20ABBD-72F1-26CC-827F-81E82B5DCE7B",
+                "first_name": "Ralph",
+                "last_name": "Coachman"
+              }
+            ],
+            "abbreviation": "B1"
+          },
+          {
+            "custom_code": "Brb 2",
+            "GUID": "E727A924-AF52-A480-478C-81E5DEA56846",
+            "players": [
+              {
+                "external_id": -1,
+                "GUID": "F66DF798-7DE0-8FBB-822D-81EDC3D1240A",
+                "first_name": "Player",
+                "last_name": "Seven"
+              },
+              {
+                "external_id": -1,
+                "GUID": "D30B41D2-99D0-E9E1-E236-81EEA3724B7B",
+                "first_name": "Player",
+                "last_name": "Seventeen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "71A7C2B4-192A-397E-87F4-81EDB1A7DFF8",
+                "first_name": "Player",
+                "last_name": "Six"
+              },
+              {
+                "external_id": -1,
+                "GUID": "68F3618A-D5C7-CD8B-0210-81EE8EB63E91",
+                "first_name": "Player",
+                "last_name": "Sixteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "3A41FFCA-E747-E781-AB36-81EE0200E8C1",
+                "first_name": "Player",
+                "last_name": "Ten"
+              }
+            ],
+            "name": "Burbs 2",
+            "external_id": -1,
+            "coaches": [
+              {
+                "external_id": -1,
+                "GUID": "BF9EFB10-8D19-6209-4173-81E92D7886DC",
+                "first_name": "Best",
+                "last_name": "Guy"
+              }
+            ],
+            "abbreviation": "B2"
+          },
+          {
+            "custom_code": "Cntrl 1",
+            "GUID": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+            "players": [
+              {
+                "external_id": -1,
+                "GUID": "0CBF3186-C564-9C5C-9193-81ED86EB2D4F",
+                "first_name": "Player",
+                "last_name": "Four"
+              },
+              {
+                "external_id": -1,
+                "GUID": "E5C65D17-3E69-2276-5DA8-81EE64E9923C",
+                "first_name": "Player",
+                "last_name": "Fourteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "F90FE683-C77A-0463-7675-81EDEE8E46BB",
+                "first_name": "Player",
+                "last_name": "Nine"
+              },
+              {
+                "external_id": -1,
+                "GUID": "4BA0E175-21B1-59A7-F651-81EED3D3E5BD",
+                "first_name": "Player",
+                "last_name": "Nineteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "D7ADC737-54BE-AB54-FF49-81ED196B61D7",
+                "first_name": "Player",
+                "last_name": "One"
+              }
+            ],
+            "name": "Central 1",
+            "external_id": -1,
+            "coaches": [
+              {
+                "external_id": -1,
+                "GUID": "B46F8134-1C88-FAC3-15D9-81E6561A2354",
+                "first_name": "Jim",
+                "last_name": "Jam"
+              }
+            ],
+            "abbreviation": "C1"
+          },
+          {
+            "custom_code": "Cntrl 2",
+            "GUID": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+            "players": [
+              {
+                "external_id": -1,
+                "GUID": "BA977EED-2A66-7D4F-B558-81EDDBAF0A47",
+                "first_name": "Player",
+                "last_name": "Eight"
+              },
+              {
+                "external_id": -1,
+                "GUID": "FC78CA40-6E9B-0D18-D386-81EEBD2096DE",
+                "first_name": "Player",
+                "last_name": "Eighteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "A4644385-0B91-8891-1307-81EE1E75FA84",
+                "first_name": "Player",
+                "last_name": "Eleven"
+              },
+              {
+                "external_id": -1,
+                "GUID": "735B9913-84B6-B8CA-FC27-81EE7A604701",
+                "first_name": "Player",
+                "last_name": "Fifteen"
+              },
+              {
+                "external_id": -1,
+                "GUID": "DF350DFF-6B98-199B-4243-81EDA02C3229",
+                "first_name": "Player",
+                "last_name": "Five"
+              }
+            ],
+            "name": "Central 2",
+            "external_id": -1,
+            "coaches": [
+              {
+                "external_id": -1,
+                "GUID": "27C26CFC-D1EF-E854-47B0-81EA24B8EE8C",
+                "first_name": "Cindy",
+                "last_name": "Manager"
+              }
+            ],
+            "abbreviation": "C2"
+          },
+          {
+            "custom_code": "Mavs",
+            "GUID": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+            "players": [
+              {
+                "external_id": -1,
+                "GUID": "F2B7596D-0A8B-B7FA-BADC-81EFBE828E52",
+                "first_name": "Player",
+                "last_name": "Twenty Four"
+              },
+              {
+                "external_id": -1,
+                "GUID": "85968FBA-5EBD-B573-B179-81EF0A1A9CEE",
+                "first_name": "Player",
+                "last_name": "Twenty One"
+              },
+              {
+                "external_id": -1,
+                "GUID": "36D856B7-BA39-34B1-4E32-81EFA2B848DC",
+                "first_name": "Player",
+                "last_name": "Twenty Three"
+              },
+              {
+                "external_id": -1,
+                "GUID": "77EEFE36-9F43-D552-AAA8-81EF86B1DEBF",
+                "first_name": "Player",
+                "last_name": "Twenty Two"
+              },
+              {
+                "external_id": -1,
+                "GUID": "D7371DE0-1F75-F38C-B3D7-81ED415AAF66",
+                "first_name": "Player",
+                "last_name": "Two"
+              }
+            ],
+            "name": "Mavericks",
+            "external_id": -1,
+            "coaches": [
+              {
+                "external_id": -1,
+                "GUID": "7CE91140-754F-1540-E913-81E74E58C655",
+                "first_name": "Helen",
+                "last_name": "Basil"
+              }
+            ],
+            "abbreviation": "MV"
+          }
+        ],
+        "GUID": "4481B275-111D-0FC9-DB59-81E5DE3C994C",
+        "name": "Softball Seniors",
+        "external_id": 0,
+        "is_across_division": false,
+        "is_out_of_league": false,
+        "abbreviation": "Soft"
+      }
+    ],
+    "venues": [
+      {
+        "custom_code": "",
+        "GUID": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "state": "",
+        "latitude": "32.198282",
+        "address_2": "",
+        "longitude": "-110.886194",
+        "abbreviation": "01",
+        "city": "",
+        "name": "Outerbanks Rec Center",
+        "map_url": "https://maps.google.com/maps?q=5000+E+29th+St,+Tucson,+AZ&hl=en&sll=32.15591,-110.883805&sspn=0.392387,0.727158&oq=5000+e+29th&hnear=5000+E+29th+St,+Tucson,+Pima,+Arizona+85711&t=m&z=16",
+        "zip": "",
+        "address_1": "5000 E 29th St. Tucson, AZ",
+        "phone": "555-1212"
+      }
+    ],
+    "persons": [
+      {
+        "external_id": -1,
+        "GUID": "7CE91140-754F-1540-E913-81E74E58C655",
+        "first_name": "Helen",
+        "gender": "",
+        "last_name": "Basil"
+      },
+      {
+        "external_id": -1,
+        "GUID": "2B20ABBD-72F1-26CC-827F-81E82B5DCE7B",
+        "first_name": "Ralph",
+        "gender": "",
+        "last_name": "Coachman"
+      },
+      {
+        "external_id": -1,
+        "GUID": "BA977EED-2A66-7D4F-B558-81EDDBAF0A47",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Eight"
+      },
+      {
+        "external_id": -1,
+        "GUID": "FC78CA40-6E9B-0D18-D386-81EEBD2096DE",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Eighteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "A4644385-0B91-8891-1307-81EE1E75FA84",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Eleven"
+      },
+      {
+        "external_id": -1,
+        "GUID": "735B9913-84B6-B8CA-FC27-81EE7A604701",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Fifteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "DF350DFF-6B98-199B-4243-81EDA02C3229",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Five"
+      },
+      {
+        "external_id": -1,
+        "GUID": "0CBF3186-C564-9C5C-9193-81ED86EB2D4F",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Four"
+      },
+      {
+        "external_id": -1,
+        "GUID": "E5C65D17-3E69-2276-5DA8-81EE64E9923C",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Fourteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "BF9EFB10-8D19-6209-4173-81E92D7886DC",
+        "first_name": "Best",
+        "gender": "",
+        "last_name": "Guy"
+      },
+      {
+        "external_id": -1,
+        "GUID": "B46F8134-1C88-FAC3-15D9-81E6561A2354",
+        "first_name": "Jim",
+        "gender": "",
+        "last_name": "Jam"
+      },
+      {
+        "external_id": -1,
+        "GUID": "27C26CFC-D1EF-E854-47B0-81EA24B8EE8C",
+        "first_name": "Cindy",
+        "gender": "",
+        "last_name": "Manager"
+      },
+      {
+        "external_id": -1,
+        "GUID": "F90FE683-C77A-0463-7675-81EDEE8E46BB",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Nine"
+      },
+      {
+        "external_id": -1,
+        "GUID": "4BA0E175-21B1-59A7-F651-81EED3D3E5BD",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Nineteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "D7ADC737-54BE-AB54-FF49-81ED196B61D7",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "One"
+      },
+      {
+        "external_id": -1,
+        "GUID": "F66DF798-7DE0-8FBB-822D-81EDC3D1240A",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Seven"
+      },
+      {
+        "external_id": -1,
+        "GUID": "D30B41D2-99D0-E9E1-E236-81EEA3724B7B",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Seventeen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "71A7C2B4-192A-397E-87F4-81EDB1A7DFF8",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Six"
+      },
+      {
+        "external_id": -1,
+        "GUID": "68F3618A-D5C7-CD8B-0210-81EE8EB63E91",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Sixteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "3A41FFCA-E747-E781-AB36-81EE0200E8C1",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Ten"
+      },
+      {
+        "external_id": -1,
+        "GUID": "E88C8446-BC28-A6E7-2EF3-81EE4D9E4FAA",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Thirteen"
+      },
+      {
+        "external_id": -1,
+        "GUID": "72EACFD5-9110-785C-D8B8-81ED6B5522A6",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Three"
+      },
+      {
+        "external_id": -1,
+        "GUID": "2C506F44-A2C7-3F2B-9A35-81EE352FD3B8",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twelve"
+      },
+      {
+        "external_id": -1,
+        "GUID": "5A48478A-54FA-DD05-3F46-81EEF03404CB",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty"
+      },
+      {
+        "external_id": -1,
+        "GUID": "B230D5B1-86A9-511B-3533-81EFD6EA804F",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty Five"
+      },
+      {
+        "external_id": -1,
+        "GUID": "F2B7596D-0A8B-B7FA-BADC-81EFBE828E52",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty Four"
+      },
+      {
+        "external_id": -1,
+        "GUID": "85968FBA-5EBD-B573-B179-81EF0A1A9CEE",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty One"
+      },
+      {
+        "external_id": -1,
+        "GUID": "36D856B7-BA39-34B1-4E32-81EFA2B848DC",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty Three"
+      },
+      {
+        "external_id": -1,
+        "GUID": "77EEFE36-9F43-D552-AAA8-81EF86B1DEBF",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Twenty Two"
+      },
+      {
+        "external_id": -1,
+        "GUID": "D7371DE0-1F75-F38C-B3D7-81ED415AAF66",
+        "first_name": "Player",
+        "gender": "",
+        "last_name": "Two"
+      },
+      {
+        "external_id": -1,
+        "GUID": "867C3741-FEAA-400D-FB4C-81EB3AE55C16",
+        "first_name": "Vince",
+        "gender": "",
+        "last_name": "Volunteer"
+      }
+    ],
+    "events": [
+      {
+        "GUID": "3525ACB4-0BAD-EB75-4236-81E5DF73B9FF",
+        "start_timestamp": "1399939200531",
+        "start_time": "Mon May 12 17:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1399942800531",
+        "end_time": "Mon May 12 18:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "E82577B5-4DC1-5703-2164-81E5DF74D24A",
+        "start_timestamp": "1400025600531",
+        "start_time": "Tue May 13 17:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400029200531",
+        "end_time": "Tue May 13 18:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "EDAD69AB-E96F-1375-E6CE-81E5DF74A577",
+        "start_timestamp": "1400112000531",
+        "start_time": "Wed May 14 17:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400115600531",
+        "end_time": "Wed May 14 18:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "0E26237F-3208-FDAE-1074-81E5DF74024C",
+        "start_timestamp": "1400198400531",
+        "start_time": "Thu May 15 17:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400202000531",
+        "end_time": "Thu May 15 18:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "0D8D4D3C-9945-9A0C-7F30-81E5DF74E5DC",
+        "start_timestamp": "1400284800531",
+        "start_time": "Fri May 16 17:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400288400531",
+        "end_time": "Fri May 16 18:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "90CC3796-80E0-6ABE-B594-81E5DF7469E5",
+        "start_timestamp": "1400540400531",
+        "start_time": "Mon May 19 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400544000531",
+        "end_time": "Mon May 19 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "A9E9819D-6966-5459-909F-81E5DF74B9D2",
+        "start_timestamp": "1400626800531",
+        "start_time": "Tue May 20 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400630400531",
+        "end_time": "Tue May 20 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "29AB3879-5390-3596-C12E-81E5DF758352",
+        "start_timestamp": "1400713200533",
+        "start_time": "Wed May 21 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400716800533",
+        "end_time": "Wed May 21 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "93BCB0C5-B6CE-29F6-FF2F-81E5DF753FD7",
+        "start_timestamp": "1400799600533",
+        "start_time": "Thu May 22 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400803200533",
+        "end_time": "Thu May 22 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "2A0AAA0C-931D-09E2-1ED9-81E5DF75C5EC",
+        "start_timestamp": "1400886000533",
+        "start_time": "Fri May 23 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1400889600533",
+        "end_time": "Fri May 23 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "8BC572DD-10A3-D739-87FC-81E5DF7666FA",
+        "start_timestamp": "1401145200533",
+        "start_time": "Mon May 26 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401148800533",
+        "end_time": "Mon May 26 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "E4A5574D-79CB-19E4-0AFC-81E5DF7658AA",
+        "start_timestamp": "1401231600533",
+        "start_time": "Tue May 27 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401235200533",
+        "end_time": "Tue May 27 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "8C5A92B0-6A3C-A796-EF2C-81E5DF76260D",
+        "start_timestamp": "1401318000533",
+        "start_time": "Wed May 28 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401321600533",
+        "end_time": "Wed May 28 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "C959E551-5D7C-A0E2-90B0-81E5DF763DBC",
+        "start_timestamp": "1401404400533",
+        "start_time": "Thu May 29 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401408000533",
+        "end_time": "Thu May 29 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "D4061A84-4D55-492C-15E2-81E5DF76A1B0",
+        "start_timestamp": "1401490800533",
+        "start_time": "Fri May 30 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401494400533",
+        "end_time": "Fri May 30 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "573E8E24-7723-9DBD-B296-81E5DF77AB8A",
+        "start_timestamp": "1401750000535",
+        "start_time": "Mon Jun 2 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401753600535",
+        "end_time": "Mon Jun 2 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "A3262389-AF10-5759-CC9C-81E5DF772AC6",
+        "start_timestamp": "1401836400535",
+        "start_time": "Tue Jun 3 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401840000535",
+        "end_time": "Tue Jun 3 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "906C8A3C-39BA-058A-4752-81E5DF77EAD2",
+        "start_timestamp": "1401922800535",
+        "start_time": "Wed Jun 4 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1401926400535",
+        "end_time": "Wed Jun 4 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "4053CE98-7F41-EBCF-CC0D-81E5DF775F4D",
+        "start_timestamp": "1402009200535",
+        "start_time": "Thu Jun 5 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402012800535",
+        "end_time": "Thu Jun 5 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "6C4AB392-DCDA-A8CB-56EB-81E5DF7810A0",
+        "start_timestamp": "1402095600536",
+        "start_time": "Fri Jun 6 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402099200536",
+        "end_time": "Fri Jun 6 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "FD6CDC72-8022-D3CA-5630-81E5DF7869B4",
+        "start_timestamp": "1402354800536",
+        "start_time": "Mon Jun 9 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402358400536",
+        "end_time": "Mon Jun 9 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "E436DC39-2F10-A3EE-38FF-81E5DF781698",
+        "start_timestamp": "1402441200536",
+        "start_time": "Tue Jun 10 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402444800536",
+        "end_time": "Tue Jun 10 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "9D0F41D0-27D9-6EB3-A9B3-81E5DF782B83",
+        "start_timestamp": "1402527600536",
+        "start_time": "Wed Jun 11 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402531200536",
+        "end_time": "Wed Jun 11 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "493C2BAF-4B9C-B5B0-294B-81E5DF7887B1",
+        "start_timestamp": "1402614000536",
+        "start_time": "Thu Jun 12 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402617600536",
+        "end_time": "Thu Jun 12 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "E05A0DF1-13E3-1B2B-0129-81E5DF794821",
+        "start_timestamp": "1402700400536",
+        "start_time": "Fri Jun 13 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402704000536",
+        "end_time": "Fri Jun 13 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "F6E6F272-FC53-4F89-158A-81E5DF79E616",
+        "start_timestamp": "1402959600536",
+        "start_time": "Mon Jun 16 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1402963200536",
+        "end_time": "Mon Jun 16 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "134E2641-81EC-5388-292E-81E5DF7967D4",
+        "start_timestamp": "1403046000538",
+        "start_time": "Tue Jun 17 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403049600538",
+        "end_time": "Tue Jun 17 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "6C63AF0D-98B2-F1A4-BD6F-81E5DF7AB69E",
+        "start_timestamp": "1403132400538",
+        "start_time": "Wed Jun 18 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403136000538",
+        "end_time": "Wed Jun 18 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "70016806-EF2B-0D9F-3439-81E5DF7AD51B",
+        "start_timestamp": "1403218800538",
+        "start_time": "Thu Jun 19 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403222400538",
+        "end_time": "Thu Jun 19 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "AD66A6C6-0EB6-80C5-7196-81E5DF7A833F",
+        "start_timestamp": "1403305200538",
+        "start_time": "Fri Jun 20 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403308800538",
+        "end_time": "Fri Jun 20 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "9A7D10C0-3047-9F7A-FB77-81E5DF7BA3F6",
+        "start_timestamp": "1403564400538",
+        "start_time": "Mon Jun 23 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403568000538",
+        "end_time": "Mon Jun 23 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "37796FF5-5DD0-C937-3831-81E5DF7B61F4",
+        "start_timestamp": "1403650800538",
+        "start_time": "Tue Jun 24 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403654400538",
+        "end_time": "Tue Jun 24 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "D129B5F8-06B0-9521-E386-81E5DF7BD3CB",
+        "start_timestamp": "1403737200538",
+        "start_time": "Wed Jun 25 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403740800538",
+        "end_time": "Wed Jun 25 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "DA79E6A9-B424-80FF-51B2-81E5DF7CD47E",
+        "start_timestamp": "1403823600540",
+        "start_time": "Thu Jun 26 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403827200540",
+        "end_time": "Thu Jun 26 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "7581088B-CA7C-EC68-C76F-81E5DF7C1265",
+        "start_timestamp": "1403910000540",
+        "start_time": "Fri Jun 27 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1403913600540",
+        "end_time": "Fri Jun 27 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "7B721976-1A6B-BE5D-EA5B-81E5DF7C21BC",
+        "start_timestamp": "1404169200540",
+        "start_time": "Mon Jun 30 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404172800540",
+        "end_time": "Mon Jun 30 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "ED2EA5C3-FF14-A85D-6F05-81E5DF7C4DB7",
+        "start_timestamp": "1404255600540",
+        "start_time": "Tue Jul 1 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404259200540",
+        "end_time": "Tue Jul 1 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "6AA8DA08-DA2D-A480-65B0-81E5DF7D7C9B",
+        "start_timestamp": "1404342000540",
+        "start_time": "Wed Jul 2 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404345600540",
+        "end_time": "Wed Jul 2 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "1930C738-8BCC-2ED8-2BA7-81E5DF7D0000",
+        "start_timestamp": "1404428400540",
+        "start_time": "Thu Jul 3 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404432000540",
+        "end_time": "Thu Jul 3 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "615C11A8-6581-EE03-1715-81E5DF7DBDAF",
+        "start_timestamp": "1404514800540",
+        "start_time": "Fri Jul 4 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404518400540",
+        "end_time": "Fri Jul 4 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "66AFFE9D-23A5-116F-2AFD-81E5DF7EA641",
+        "start_timestamp": "1404774000542",
+        "start_time": "Mon Jul 7 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404777600542",
+        "end_time": "Mon Jul 7 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "0D518E31-1C44-AF3A-9F8D-81E5DF7EF8A3",
+        "start_timestamp": "1404860400542",
+        "start_time": "Tue Jul 8 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404864000542",
+        "end_time": "Tue Jul 8 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "1FCE12D5-B810-47B2-94F2-81E5DF7E8C07",
+        "start_timestamp": "1404946800542",
+        "start_time": "Wed Jul 9 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1404950400542",
+        "end_time": "Wed Jul 9 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "8FB6A46F-B508-779C-68EC-81E5DF7F985C",
+        "start_timestamp": "1405033200542",
+        "start_time": "Thu Jul 10 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405036800542",
+        "end_time": "Thu Jul 10 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "66035BEF-9EC6-E36B-3ED8-81E5DF7FCFD9",
+        "start_timestamp": "1405119600542",
+        "start_time": "Fri Jul 11 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405123200542",
+        "end_time": "Fri Jul 11 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "036DD635-90F4-4EA3-32E3-3A49D7EE180E",
+        "start_timestamp": "1405378800000",
+        "start_time": "Mon Jul 14 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405382400000",
+        "end_time": "Mon Jul 14 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "C8754F09-4739-319E-3897-3A49D8063593",
+        "start_timestamp": "1405465200000",
+        "start_time": "Tue Jul 15 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405468800000",
+        "end_time": "Tue Jul 15 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "63099D38-7CCE-6A8D-5D51-3A49D81A1977",
+        "start_timestamp": "1405551600000",
+        "start_time": "Wed Jul 16 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405555200000",
+        "end_time": "Wed Jul 16 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "EBACCAA5-23F7-6604-A76A-3A49D849E8B1",
+        "start_timestamp": "1405638000000",
+        "start_time": "Thu Jul 17 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405641600000",
+        "end_time": "Thu Jul 17 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "F0A6499D-AF39-BDE0-300A-3A49D85E9616",
+        "start_timestamp": "1405724400000",
+        "start_time": "Fri Jul 18 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405728000000",
+        "end_time": "Fri Jul 18 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "D666D350-AED0-5E0F-3D91-3A49F67B8DE7",
+        "start_timestamp": "1405983600000",
+        "start_time": "Mon Jul 21 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1405987200000",
+        "end_time": "Mon Jul 21 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "D2FF8F3E-525B-E230-BD94-3A49F6CF9275",
+        "start_timestamp": "1406070000000",
+        "start_time": "Tue Jul 22 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406073600000",
+        "end_time": "Tue Jul 22 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "9ECB78F8-8D18-92A2-2A88-3A49F70B5C32",
+        "start_timestamp": "1406156400000",
+        "start_time": "Wed Jul 23 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406160000000",
+        "end_time": "Wed Jul 23 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "DF81436A-A8AA-E3DB-B820-3A49F72E8A14",
+        "start_timestamp": "1406242800000",
+        "start_time": "Thu Jul 24 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406246400000",
+        "end_time": "Thu Jul 24 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "270A2941-54EE-6A8C-AC97-3A49F741B29A",
+        "start_timestamp": "1406329200000",
+        "start_time": "Fri Jul 25 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 1",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406332800000",
+        "end_time": "Fri Jul 25 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "6329CC56-06A9-6635-E4E3-3A4A2C739444",
+        "start_timestamp": "1406588400000",
+        "start_time": "Mon Jul 28 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Central 1",
+          "home_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406592000000",
+        "end_time": "Mon Jul 28 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "2E1B3E21-FD90-7F62-BBD0-3A4A2CCBE907",
+        "start_timestamp": "1406674800000",
+        "start_time": "Tue Jul 29 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 1",
+          "external_id": -1,
+          "home_name": "Burbs 2",
+          "home_guid": "E727A924-AF52-A480-478C-81E5DEA56846",
+          "visitor_guid": "FF8CF8BE-EF6E-2793-19A8-81E5DEDC3813"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406678400000",
+        "end_time": "Tue Jul 29 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "E6EA19A3-A6A3-99B6-B0F5-3A4A2D083D87",
+        "start_timestamp": "1406761200000",
+        "start_time": "Wed Jul 30 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Central 2",
+          "external_id": -1,
+          "home_name": "Mavericks",
+          "home_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C",
+          "visitor_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406764800000",
+        "end_time": "Wed Jul 30 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "95204DEF-AB0C-AAF1-AE7C-3A4A2D192215",
+        "start_timestamp": "1406847600000",
+        "start_time": "Thu Jul 31 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Mavericks",
+          "external_id": -1,
+          "home_name": "Burbs 1",
+          "home_guid": "FD815CC2-979A-8797-F3B2-81E5DE73439B",
+          "visitor_guid": "0B221958-2F89-80E6-E09D-81E5DF2EBE6C"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406851200000",
+        "end_time": "Thu Jul 31 17:00:00 GMT-0700 2014",
+        "is_game": true
+      },
+      {
+        "GUID": "D05290E1-F074-A82A-5406-3A4A2D43FF62",
+        "start_timestamp": "1406934000000",
+        "start_time": "Fri Aug 1 16:00:00 GMT-0700 2014",
+        "is_specialEvent": false,
+        "game": {
+          "visitor_name": "Burbs 2",
+          "external_id": -1,
+          "home_name": "Central 2",
+          "home_guid": "885E0A3A-81DC-8616-3C63-81E5DF054068",
+          "visitor_guid": "E727A924-AF52-A480-478C-81E5DEA56846"
+        },
+        "venue_guid": "117BC27B-2291-29E9-1A0B-81E5DF598F01",
+        "external_id": -1,
+        "is_practice": false,
+        "venue_name": "Outerbanks Rec Center",
+        "end_timestamp": "1406937600000",
+        "end_time": "Fri Aug 1 17:00:00 GMT-0700 2014",
+        "is_game": true
+      }
+    ]
+  }
+}
